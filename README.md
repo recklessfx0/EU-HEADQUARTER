@@ -104,6 +104,114 @@ You can contribute by:
 
 ---
 
+# Issue Workflow Guide
+
+## How to Report a Bug
+
+1. Open the **Issues** section.
+2. Click **New Issue**.
+3. Provide a clear title and description.
+4. Include reproduction steps, screenshots, videos, or logs if available.
+5. Submit the issue.
+
+![Issue Workflow](images/euheadquarterissues.png)
+
+The issue will automatically appear in **To Triage**.
+
+---
+
+## Workflow Stages
+
+### 🔴 To Triage
+
+Newly submitted issues.
+
+The development team reviews the report and determines:
+
+* Is the bug valid?
+* Can it be reproduced?
+* Is more information required?
+
+If confirmed, the issue moves to **Backlog**.
+
+---
+
+### 🟢 Backlog
+
+The issue has been confirmed.
+
+The bug is known and scheduled for future work but has not yet been assigned.
+
+---
+
+### 🔵 Ready
+
+The issue has been prioritized and is ready for a developer to work on.
+
+---
+
+### 🟡 In Progress
+
+A developer is actively investigating or fixing the issue.
+
+---
+
+### 🟣 In Review
+
+The fix has been completed and is awaiting testing or verification.
+
+Community testers may be asked to confirm the issue has been resolved.
+
+---
+
+### 🟠 Done
+
+The issue has been fixed, tested, and closed.
+
+No further action is required.
+
+---
+
+## Tips for Better Bug Reports
+
+✅ Use a descriptive title.
+
+✅ Include steps to reproduce the issue.
+
+✅ Attach screenshots or videos whenever possible.
+
+✅ Include server name, map, faction, and any relevant details.
+
+✅ Check existing issues before creating a new one.
+
+❌ Do not report multiple unrelated bugs in a single issue.
+
+❌ Do not post bug reports only in Discord. Always create a GitHub issue so it can be tracked properly.
+
+---
+
+## Example
+
+**Title:**
+M1A2 Abrams cannot repair at vehicle depot
+
+**Description:**
+The M1A2 Abrams does not receive repair options when parked inside a vehicle depot.
+
+**Steps to Reproduce:**
+
+1. Spawn M1A2 Abrams
+2. Drive to vehicle depot
+3. Park inside repair zone
+4. Observe missing repair interaction
+
+**Expected Result:**
+Repair option should appear.
+
+**Actual Result:**
+No repair option is available.
+
+
 ## Community
 
 Join the EU Headquarters community:
